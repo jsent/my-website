@@ -104,10 +104,38 @@
 #pic img {
   width: 575px;
   height: 400px;
+  object-fit: cover;
+  border-radius: 20px;
 }
 #intro {
   display: flex;
   flex-direction: column;
   text-align: justify;
   padding: 10px;
+}
+#intro h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+/* portfolio section*/
+#portfolio {
+  display: flex;
+  flex-direction: column;
+  background-color: #000000e6;
+  color: white;
+  align-items: center;
+  padding: 20px;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  box-sizing: border-box;
+}
+.gallery img {
+  object-fit: cover;
+  border-radius: 20px;
+  width: 360px;
+  height: 240px;
+  margin: 10px;
 }
